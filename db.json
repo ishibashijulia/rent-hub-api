@@ -1,0 +1,253 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "ownerId": 1,
+      "propertyType": "apartment",
+      "buildingName": "Sunrise Heights",
+      "shared": false,
+      "title": "Sunny 2BHK near station",
+      "description": "Bright apartment, 5 minutes walk from the station.",
+      "location": "Tokyo",
+      "address": "1-2-3 Shibuya",
+      "squareFeet": 750,
+      "leaseType": "long",
+      "price": 120000,
+      "negotiable": true,
+      "priceMode": "per-month",
+      "furnished": true,
+      "amenities": ["Gym / Fitness Center", "Car Park"],
+      "vegetarianOnly": "any",
+      "photos": ["https://picsum.photos/seed/renthub1/800/500"],
+      "contactName": "Taro",
+      "contactPhone": "090-0000-0001",
+      "featured": true,
+      "createdAt": "2026-11-02T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "ownerId": 2,
+      "propertyType": "studio",
+      "buildingName": "Central Studio Tower",
+      "shared": false,
+      "title": "Compact Studio in City Center",
+      "description": "Convenient studio apartment close to shops and transport.",
+      "location": "Osaka",
+      "address": "2-5-8 Namba",
+      "squareFeet": 320,
+      "leaseType": "both",
+      "price": 75000,
+      "negotiable": false,
+      "priceMode": "utilities-included",
+      "furnished": true,
+      "amenities": ["WiFi", "Air Conditioning"],
+      "vegetarianOnly": "any",
+      "photos": ["https://picsum.photos/seed/renthub2/800/500"],
+      "contactName": "Hanako",
+      "contactPhone": "090-0000-0002",
+      "featured": false,
+      "createdAt": "2026-11-02T11:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "ownerId": 1,
+      "propertyType": "house",
+      "buildingName": "Green Garden House",
+      "shared": false,
+      "title": "Spacious Family House",
+      "description": "Large house with garden and parking space.",
+      "location": "Yokohama",
+      "address": "3-10-15 Minato Mirai",
+      "squareFeet": 1400,
+      "leaseType": "long",
+      "price": 250000,
+      "negotiable": true,
+      "priceMode": "per-month",
+      "furnished": false,
+      "amenities": ["Car Park", "Garden", "Storage"],
+      "vegetarianOnly": "any",
+      "photos": ["https://picsum.photos/seed/renthub3/800/500"],
+      "contactName": "Ken",
+      "contactPhone": "090-0000-0003",
+      "featured": true,
+      "createdAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "ownerId": 3,
+      "propertyType": "apartment",
+      "buildingName": "Harmony Shared Residence",
+      "shared": true,
+      "title": "Affordable Shared Apartment",
+      "description": "Shared accommodation for students and professionals.",
+      "location": "Kyoto",
+      "address": "4-7-12 Gion",
+      "squareFeet": 280,
+      "leaseType": "short",
+      "price": 45000,
+      "negotiable": false,
+      "priceMode": "utilities-included",
+      "furnished": true,
+      "amenities": ["WiFi", "Laundry Room"],
+      "vegetarianOnly": "any",
+      "photos": ["https://picsum.photos/seed/renthub4/800/500"],
+      "contactName": "Yuki",
+      "contactPhone": "090-0000-0004",
+      "featured": false,
+      "createdAt": "2026-11-02T13:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "ownerId": 2,
+      "propertyType": "apartment",
+      "buildingName": "Riverside Court",
+      "shared": false,
+      "title": "Modern Apartment with River View",
+      "description": "Comfortable apartment with balcony and great view.",
+      "location": "Nagoya",
+      "address": "5-4-20 Sakae",
+      "squareFeet": 900,
+      "leaseType": "long",
+      "price": 150000,
+      "negotiable": false,
+      "priceMode": "per-month",
+      "furnished": true,
+      "amenities": ["Gym / Fitness Center", "Elevator"],
+      "vegetarianOnly": "any",
+      "photos": ["https://picsum.photos/seed/renthub5/800/500"],
+      "contactName": "Mika",
+      "contactPhone": "090-0000-0005",
+      "featured": true,
+      "createdAt": "2026-11-02T14:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "ownerId": 3,
+      "propertyType": "studio",
+      "buildingName": "Smart Living Hub",
+      "shared": true,
+      "title": "Budget Shared Studio",
+      "description": "Small shared studio with all basic amenities included.",
+      "location": "Fukuoka",
+      "address": "6-8-3 Hakata",
+      "squareFeet": 200,
+      "leaseType": "both",
+      "price": 40000,
+      "negotiable": true,
+      "priceMode": "utilities-included",
+      "furnished": true,
+      "amenities": ["WiFi", "Shared Kitchen"],
+      "vegetarianOnly": "any",
+      "photos": ["https://picsum.photos/seed/renthub6/800/500"],
+      "contactName": "Satoshi",
+      "contactPhone": "090-0000-0006",
+      "featured": false,
+      "createdAt": "2026-11-02T15:00:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Taro",
+      "email": "taro@example.com",
+      "password": "password123",
+      "role": "landlord"
+    },
+    {
+      "id": 2,
+      "name": "Hanako",
+      "email": "hanako@example.com",
+      "password": "password123",
+      "role": "landlord"
+    },
+    {
+      "id": 3,
+      "name": "Mika",
+      "email": "mika@example.com",
+      "password": "password123",
+      "role": "renter"
+    },
+    {
+      "name": "Julia",
+      "email": "julia.ishbashi@nagarro.com",
+      "password": "Julia123",
+      "role": "renter",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "propertyId": 1,
+      "userId": 3,
+      "userName": "Mika",
+      "text": "Is the apartment still available from December?",
+      "parentId": null,
+      "createdAt": "2026-11-03T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "propertyId": 1,
+      "userId": 1,
+      "userName": "Taro",
+      "text": "Yes, it is. You are welcome to visit this weekend.",
+      "parentId": 1,
+      "createdAt": "2026-11-03T12:30:00.000Z"
+    },
+    {
+      "propertyId": 1,
+      "userId": 4,
+      "userName": "Julia",
+      "text": "Test",
+      "parentId": null,
+      "createdAt": "2026-11-05T02:03:40.580Z",
+      "id": 3
+    },
+    {
+      "propertyId": 1,
+      "userId": 4,
+      "userName": "Julia",
+      "text": "Hi",
+      "createdAt": "2026-11-05T02:55:30.218Z",
+      "id": 4
+    },
+    {
+      "propertyId": 1,
+      "userId": 4,
+      "userName": "Julia",
+      "text": "test",
+      "createdAt": "2026-11-05T02:55:41.363Z",
+      "id": 5
+    },
+    {
+      "propertyId": 1,
+      "userId": 4,
+      "userName": "Julia",
+      "text": "yes",
+      "parentId": 1,
+      "createdAt": "2026-11-05T02:56:34.149Z",
+      "id": 6
+    },
+    {
+      "propertyId": 1,
+      "userId": 4,
+      "userName": "Julia",
+      "text": "test",
+      "parentId": 3,
+      "createdAt": "2026-11-05T02:56:39.774Z",
+      "id": 7
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "userId": 3,
+      "propertyId": 1
+    },
+    {
+      "userId": 4,
+      "propertyId": 1,
+      "id": 2
+    }
+  ]
+}
